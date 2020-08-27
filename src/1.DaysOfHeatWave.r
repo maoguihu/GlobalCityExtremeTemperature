@@ -28,7 +28,7 @@ Future_4 <- YearAvg(2081:2100)
 
 writeRaster(Future_1, "./DaysOfHeatWave/Future_1.tif", options=c("COMPRESS=LZW"))
 writeRaster(Future_2, "./DaysOfHeatWave/Future_2.tif", options=c("COMPRESS=LZW"))
-writeRaster(Future_3, "./DaysOfHeatWaveÊı/Future_3.tif", options=c("COMPRESS=LZW"))
+writeRaster(Future_3, "./DaysOfHeatWave/Future_3.tif", options=c("COMPRESS=LZW"))
 writeRaster(Future_4, "./DaysOfHeatWave/Future_4.tif", options=c("COMPRESS=LZW"))
 
 writeRaster(Future_1 - BaseHistory, "./DaysOfHeatWave/Diff_1_0.tif", options=c("COMPRESS=LZW"))
